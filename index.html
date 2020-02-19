@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jeryl's Photography</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Lobster|Pacifico|Quicksand|Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<span class="brand"><h1>Jeryl's Photography</h1></span>
+		<nav class="nav-bar">
+			<ul class="navlist">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<div class="socialmedia">
+		<ul class="medialist">
+			<li>FB</li>
+			<li>IN</li>
+		</ul>
+	</div>
+
+	<main>
+		<div class="container">
+			<div class="content">
+				<div class="images">
+					<span class="text" id="1">Horses</span>
+					<img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg" alt="Horses">
+				</div>
+			</div>
+			<div class="content">
+				<div class="images">
+					<span class="text" id="2">Elephants</span>
+					<img src="https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg" alt="Elephants">
+				</div>
+			</div>
+			<div class="content">
+				<div class="images">
+					<span class="text" id="3">Fishes</span>
+					<img src="https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg" alt="Fishes">
+				</div>
+			</div>
+			<div class="content">
+				<div class="images">
+					<span class="text" id="4">Birdie</span>
+					<img src="https://static.pexels.com/photos/158471/ibis-bird-red-animals-158471.jpeg" alt="Birds">
+				</div>
+			</div>
+			<div class="content">
+				<div class="images">
+					<span class="text" id="5">Lemurs</span>
+					<img src="https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg" alt="Creatures">
+				</div>
+			</div>
+			<div class="content">
+				<div class="images">
+					<span class="text" id="6">Monkeys</span>
+					<img src="https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg" alt="Monkeys">
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<!-- Modal/Lightbox -->
+	<div class="modal" >
+		<span class="close">&times;</span>
+		<div class="modal-content">
+			
+			<div class="slides" id="mod1">
+				<div class="numbertext">1/6</div>
+				<img class="picture" src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg" alt="Horses">
+			</div>
+
+			<div class="slides" id="mod2">
+				<div class="numbertext">2/6</div>
+				<img class="picture" src="https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg" alt="Elephants">
+			</div>
+
+			<div class="slides" id="mod3">
+				<div class="numbertext">3/6</div>
+				<img class="picture" src="https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg" alt="Fishes">
+			</div>
+
+			<div class="slides" id="mod4">
+				<div class="numbertext">4/6</div>
+				<img class="picture" src="https://static.pexels.com/photos/158471/ibis-bird-red-animals-158471.jpeg" alt="Birds">
+			</div>
+
+			<div class="slides" id="mod5">
+				<div class="numbertext">5/6</div>
+				<img class="picture" src="https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg" alt="Creatures">
+			</div>
+
+			<div class="slides" id="mod6">
+				<div class="numbertext">6/6</div>
+				<img class="picture" src="https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg" alt="Monkeys">
+			</div>
+
+			<!-- Next/Prev buttons -->
+			<span class="prev">&#10094;</span>
+			<span class="next">&#10095;</span>
+
+			<!-- Caption text -->
+			<div class="caption-container">
+				<p id="caption"></p>
+			</div>
+
+		</div>
+	</div>
+	
+	<!-- <div class="container">	
+		<img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg">
+		<img src="https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg">
+		<img src="https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg">
+		<img src="https://static.pexels.com/photos/158471/ibis-bird-red-animals-158471.jpeg">
+		<img src="https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg">
+		<img src="https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg">
+	</div> -->
+	<footer>
+		<p>&copy; 2018 Reckson Khiangte</p>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
